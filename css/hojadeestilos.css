@@ -7,6 +7,13 @@ body{
     flex-wrap:wrap;
     font-family:'Times New Roman';
 }
+
+#principal{
+
+    margin-left:15%;
+    margin-right:15%;
+
+}
 h1 {
      margin-left:35%;
      margin-right:35%;
@@ -28,26 +35,15 @@ h1 {
 
     }
 p {
-    margin-left:15%;
-    margin-right:15%;
     text-align:left;
     line-height:30px;
     clear:both;
-    color:;
 }
 
-#documento {
-text-align:left;
-position:relative;
-width:70%;
-left:15%;
-top:30px;
-align-content:center;
 
-}
 footer {
     width:100%;
-   align-self:flex-end;
+    align-self:flex-end;
     background:#07084d;
     padding:5% 5% 5% 5%;
     margin-top:5%;
@@ -73,32 +69,24 @@ footer {
 }
 #botones button{
     position: fixed; 
-	left: 0; 
+    display: block;
+    left: 0;
 	z-index: 2000; 
-width:115px;
-height:auto;
- border-radius:8%;
- font-size:initial;
- background:white;
- color: #07084d;
-  font-weight:bold;
-padding: 10px 8px;
-text-decoration: none;
--webkit-transition:all 500ms ease;
--o-transition:all 500ms ease;
-transition:all 500ms ease;
- 
+    width:120px;
+    height:auto;
+    border-radius:8%;
+    font-size:initial;
+    background:white;
+    color: #07084d;
+    font-weight:bold;
+    padding: 10px 8px;
+    text-decoration: none;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+
 }
 
-#botones #hj {
-top: 200px; 
-}
-#botones #re {
-    top:150px;
-}
-#botones #ex {
-top:80px;
-}
 
     #botones button:hover {
         width:180px;
@@ -112,16 +100,22 @@ top:80px;
 
     #botones #hj:before {
  font-family: FontAwesome;
- content:url(../imagenes/home.png);
  position: absolute;
  top: 11px;
  left: -30px;
  transition: all 200ms ease;
     }
     #botones #hj:hover::before {
-      
  left: 7px;
-
     }
  
 
+    #botones #btn1 {
+        top: 50px; 
+    }
+    #botones #btn2 {
+            top:100px;
+    }
+    #botones #btn3 {
+        top:150px;
+    }
